@@ -83,8 +83,8 @@ jobs:
         run: >
           mvn -B verify sonar:sonar
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.organization=YOUR_ORGANIZATION
-          -Dsonar.projectKey=YOUR_PROJECT_KEY
+          -Dsonar.organization=hapispro
+          -Dsonar.projectKey=HapisPro_nyoba_mkepl
 
   deploy:
     name: Continuous Deployment
