@@ -13,6 +13,7 @@ public class MenuUtils {
         System.out.println("1. Register");
         System.out.println("2. Login");
         System.out.println("3. Keluar");
+        System.out.println("3. Masuk");
         System.out.println("=================================");
     }
 
